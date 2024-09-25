@@ -1,0 +1,4 @@
+jaovini
+cirkTqzX4WMwSLRh
+
+mongodb+srv://jaovini:cirkTqzX4WMwSLRh@users.a9acg.mongodb.net/?retryWrites=true&w=majority&appName=Users
