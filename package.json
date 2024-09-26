@@ -1,5 +1,5 @@
 {
-  "name": "apinode",
+  "name": "new",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^5.20.0",
+    "bcrypt": "^5.1.1",
     "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
     "prisma": "^5.20.0"
   }
 }

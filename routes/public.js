@@ -53,8 +53,8 @@ router.post('/login', async (req, res) => {
             return res.status(400).json({ message: "Senha inválida!"})
         }
 
-        // gerar o token JWT
-        const token = jwt.sign({ id: user.id}, JWT_SECRET, { expiresIn: '1m'})
+        // gerar o token JWT e exibir informações como data e expiração de token em data unix
+        const token = jwt.sign({ id: user.id}, JWT_SECRET, { expiresIn: '3m'})
 
         res.status(200).json(token)
     } catch(err) {
