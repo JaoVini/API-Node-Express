@@ -1,8 +1,0 @@
-jaovini
-cirkTqzX4WMwSLRh
-
-mongodb+srv://jaovini:cirkTqzX4WMwSLRh@users.a9acg.mongodb.net/?retryWrites=true&w=majority&appName=Users
-
-.env
-DATABASE_URL="mongodb+srv://jaovini:cirkTqzX4WMwSLRh@users.a9acg.mongodb.net/Users?retryWrites=true&w=majority&appName=Users"
-JWT_SECRET = "221c27ee932b4763dd9dea3caae2322798af645b391a931d978af8a8804f26ec"
